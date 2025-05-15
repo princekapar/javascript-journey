@@ -36,7 +36,7 @@ const myfunction = function () {
 // function objects
 }
 
-// console.log(typeof heros);
+// console.log(typeof heros)
 // console.log(typeof myObj)
 // console.log(typeof bigNumber)
 // console.log(typeof ousideTemp)
