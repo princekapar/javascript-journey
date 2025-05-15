@@ -36,10 +36,31 @@ const myfunction = function () {
 // function objects
 }
 
-console.log(typeof heros);
-console.log(typeof myObj)
-console.log(typeof bigNumber)
-console.log(typeof ousideTemp)
-console.log(typeof myfunction)
-console.log(typeof isLoggedIn)
-console.log(typeof id)
+// console.log(typeof heros);
+// console.log(typeof myObj)
+// console.log(typeof bigNumber)
+// console.log(typeof ousideTemp)
+// console.log(typeof myfunction)
+// console.log(typeof isLoggedIn)
+// console.log(typeof id)
+
+
+
+
+
+
+
+
+// "5" == 5  // true
+// "5" === 5 // false
+
+
+
+
+
+
+
+
+
+
+
