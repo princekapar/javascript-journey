@@ -30,10 +30,10 @@ console.log(jsUser[mySym])
 
 
 
-// jsUser.email = "prince@microsoft.com"
-// // Object.freeze(jsUser)
-// jsUser.email = "bitisha@google.com"
-// console.log(jsUser);
+jsUser.email = "prince@microsoft.com"
+// Object.freeze(jsUser)
+jsUser.email = "bitisha@google.com"
+console.log(jsUser);
 
 
 // jsUser.greeting = function () {
