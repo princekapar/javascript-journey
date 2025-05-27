@@ -77,7 +77,6 @@ button:hover {
   border-radius: 8px;
   font-size: 1.1rem;
   color: #333;
-  display: none;
 }
 .guide {
  background-color: #f1f8ff;         
@@ -89,7 +88,6 @@ button:hover {
   color: #333;
   font-weight: 500;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  display: none;
   
 }
 
