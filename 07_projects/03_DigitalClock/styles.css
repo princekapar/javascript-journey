@@ -1,0 +1,64 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Centering Container */
+.center {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(10px);
+}
+
+/* Banner Styling */
+#banner {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #ffce00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Clock Styling */
+#clock {
+  font-size: 48px;
+  font-weight: bold;
+  color: #00eaff;
+  letter-spacing: 4px;
+  /* text-shadow: 0 0 10px #00eaff, 0 0 20px #033e43; */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .center {
+    padding: 30px 20px;
+  }
+
+  #banner {
+    font-size: 20px;
+  }
+
+  #clock {
+    font-size: 36px;
+  }
+}
